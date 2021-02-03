@@ -9,6 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         val blueButton: Button = findViewById(R.id.myButton)
         blueButton.setOnClickListener{
             // myy funcionality
